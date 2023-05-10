@@ -9,9 +9,9 @@ This repository provides a cell segmentation method for ssDNA images with ConA i
 # Dependences
 
 [![numpy-1.23.3](https://img.shields.io/badge/numpy-1.23.3-red)](https://github.com/numpy/numpy)
-[![pycocotools-2.0.6](https://img.shields.io/badge/pycocotools-2.0.6-lightgrey)](https://https://github.com/cocodataset/cocoapi)
+[![pycocotools-2.0.6](https://img.shields.io/badge/pycocotools-2.0.6-lightgrey)](https://github.com/cocodataset/cocoapi)
 [![torch-1.12.1](https://img.shields.io/badge/torch-1.12.1-orange)](https://github.com/pytorch/pytorch)
-[![mmcv-1.7.0](https://img.shields.io/badge/mmcv-1.7.0-green)](https://https://github.com/open-mmlab/mmcv/)
+[![mmcv-1.7.0](https://img.shields.io/badge/mmcv-1.7.0-green)](https://github.com/open-mmlab/mmcv/)
 
 
 # Usage
