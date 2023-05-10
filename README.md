@@ -4,7 +4,7 @@
 
 This repository provides a cell segmentation method for ssDNA images with ConA images assisted, which is implemented based on mmdetection. The method is mainly consisted of two parts, annotate cells on ConA images with an active learning procedure and train ssDNA image cell segmentation model with labels transferred from ConA images.
 
-<img src="overview.png" width="800">
+<img src="overview.png" width="600">
 
 # Dependences
 
@@ -26,13 +26,13 @@ python dataset_generation/ssDNA/generate_coco_annotation.py.py
 ```
 
 ## ConA model training and validation
-The configuration file for training and validating ConA model is in local_configs/conA_human_in_loop/, run the following code to train a ConA model.
+The configuration file for training and validating a ConA model is in local_configs/conA_human_in_loop/, run the following code to train a ConA model.
 ```
 bash tools/dist_train.sh local_configs/conA_human_in_loop/mask_rcnn_baseline.py 2
 ```
 
 ## ssDNA model training and validation
-The configuration file for training and validating ssDNA model is in local_configs/ssDNA_with_incomplete_annotations/, run the following code to train an ssDNA model.
+The configuration file for training and validating an ssDNA model is in local_configs/ssDNA_with_incomplete_annotations/, run the following code to train an ssDNA model.
 ```
 bash tools/dist_train.sh local_configs/ssDNA_with_incomplete_annotations/mask_rcnn_baseline.py 2
 ```
